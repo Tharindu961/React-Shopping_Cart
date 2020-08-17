@@ -10,7 +10,7 @@ function App() {
         <h3>AA Battery</h3>
         <h4>$2.99</h4>
         <img src="" />
-        
+        <button>Add to Cart</button>
       </div>
     </div>
   );
