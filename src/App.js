@@ -8,6 +8,8 @@ function App() {
       <h1>Products</h1>
       <div>
         <h3>AA Battery</h3>
+        <h4>$2.99</h4>
+        <img src="" />
         
       </div>
     </div>
