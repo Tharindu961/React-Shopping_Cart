@@ -6,6 +6,10 @@ function App() {
   return (
     <div className="App">
       <h1>Products</h1>
+      <div>
+        <h3>AA Battery</h3>
+        
+      </div>
     </div>
   );
 }
