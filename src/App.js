@@ -9,7 +9,7 @@ function App() {
       <div>
         <h3>AA Battery</h3>
         <h4>$2.99</h4>
-        <img src="" />
+        <img src="https://exposupplies.co.uk/wp-content/uploads/100494.jpg" />
         <button>Add to Cart</button>
       </div>
     </div>
