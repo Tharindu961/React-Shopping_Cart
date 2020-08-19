@@ -2,6 +2,10 @@ import React, { useState } from 'react';
 import './App.css';
 
 function App() {
+    const [products] = useState([
+      
+    ])
+
   return (
     <div className="App">
       <h1>Products</h1>
