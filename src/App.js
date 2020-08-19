@@ -3,7 +3,13 @@ import './App.css';
 
 function App() {
     const [products] = useState([
-      
+      {
+        name: 'AA Battery',
+        cost: 
+      },
+      {
+
+      }
     ])
 
   return (
