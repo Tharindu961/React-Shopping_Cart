@@ -5,7 +5,8 @@ function App() {
     const [products] = useState([
       {
         name: 'AA Battery',
-        cost: 
+        cost: '$2.99',
+        image: 'https://exposupplies.co.uk/wp-content/uploads/100494.jpg',
       },
       {
 
