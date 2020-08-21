@@ -19,6 +19,11 @@ function App() {
   return (
     <div className="App">
       <h1>Products</h1>
+      {
+        products.map((products) => (
+          <></>
+        )) 
+      }
       { /*  <div>
         <h3>AA Battery</h3>
         <h4>$2.99</h4>
