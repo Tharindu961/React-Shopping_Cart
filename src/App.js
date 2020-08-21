@@ -21,15 +21,14 @@ function App() {
       <h1>Products</h1>
       {
         products.map((products) => (
-          <></>
-        )) 
-      }
-      { /*  <div>
+          <div>
         <h3>AA Battery</h3>
         <h4>$2.99</h4>
         <img src="https://exposupplies.co.uk/wp-content/uploads/100494.jpg" />
         <button>Add to Cart</button>
-      </div>  */}
+      </div> 
+        )) 
+      }
 
     </div>
   );
