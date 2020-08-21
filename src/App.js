@@ -20,11 +20,11 @@ function App() {
     <div className="App">
       <h1>Products</h1>
       {
-        products.map((products) => (
+        products.map((product) => (
           <div>
-        <h3>AA Battery</h3>
-        <h4>$2.99</h4>
-        <img src="https://exposupplies.co.uk/wp-content/uploads/100494.jpg" />
+        <h3>{product.name}</h3>
+        <h4>{product.cost}</h4>
+        <img src={product.image} alt={product.name} />
         <button>Add to Cart</button>
       </div> 
         )) 
