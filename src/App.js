@@ -14,6 +14,12 @@ function App() {
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQca4lKnePlg7EvPz5t1IDMQUltjBTGyjVIEA&usqp=CAU',
 
       },
+      {
+        name: 'Blanket',
+        cost: '$19.99',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQca4lKnePlg7EvPz5t1IDMQUltjBTGyjVIEA&usqp=CAU',
+
+      },
     ]);
 
   return (
