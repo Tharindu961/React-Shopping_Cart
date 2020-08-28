@@ -22,8 +22,8 @@ function App() {
       <h1>Products</h1>
       <div className="products">
       {
-        products.map((product) => (
-          <div>
+        products.map((product, idx) => (
+          <div className="product" key={idx}>
         <h3>{product.name}</h3>
         <h4>{product.cost}</h4>
         <img src={product.image} alt={product.name} />
