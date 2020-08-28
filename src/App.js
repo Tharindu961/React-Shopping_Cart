@@ -19,6 +19,7 @@ function App() {
   return (
     <div className="App">
       <h1>Products</h1>
+      <div className="products">
       {
         products.map((product) => (
           <div>
@@ -29,7 +30,7 @@ function App() {
       </div> 
         )) 
       }
-
+      </div>
     </div>
   );
 }
