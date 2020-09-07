@@ -26,7 +26,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <button>Go to Cart</button>
+        <button>Go to Cart ({cart.length})</button>
       </header>
       <h1>Products</h1>
       <div className="products">
