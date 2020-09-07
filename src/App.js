@@ -19,6 +19,10 @@ function App() {
   
     ]);
 
+    const addToCart = (product) => {
+      setCart({...cart, product});
+    }
+
   return (
     <div className="App">
       <h1>Products</h1>
