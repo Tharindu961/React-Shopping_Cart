@@ -33,7 +33,7 @@ function App() {
         <h3>{product.name}</h3>
         <h4>{product.cost}</h4>
         <img src={product.image} alt={product.name} />
-        <button>Add to Cart</button>
+        <button onClick={() => addToCart(product)}>Add to Cart</button>
       </div> 
         )) 
       }
