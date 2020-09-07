@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import './App.css';
 
 function App() {
+
+    const [cart, setCart] = useState([]);
     const [products] = useState([
       {
         name: 'AA Battery',
