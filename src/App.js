@@ -21,10 +21,13 @@ function App() {
 
     const addToCart = (product) => {
       setCart({...cart, product});
-    }
+    };
 
   return (
     <div className="App">
+      <header>
+        <button>Go to Cart</button>
+      </header>
       <h1>Products</h1>
       <div className="products">
       {
