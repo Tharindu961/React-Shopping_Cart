@@ -7,7 +7,7 @@ const PAGE_CART = 'cart';
 function App() {
 
     const [cart, setCart] = useState([]);
-    const [page, setPage] = useState('products');
+    const [page, setPage] = useState(PAGE_PRODUCTS);
 
     const [products] = useState([
       {
