@@ -25,9 +25,23 @@ function App() {
       setCart({...cart, product});
     };
 
-    const renderProducts = () => {
-      
-    }
+    const renderProducts = () => (
+      <>
+      <h1>Products</h1>
+      <div className="products">
+      {
+        products.map((product, idx) => (
+          <div className="product" key={idx}>
+        <h3>{product.name}</h3>
+        <h4>{product.cost}</h4>
+        <img src={product.image} alt={product.name} />
+        <button onClick={() => addToCart(product)}>Add to Cart</button>
+      </div> 
+        )) 
+      }
+      </div>
+      </>
+    );
 
   return (
     <div className="App">
