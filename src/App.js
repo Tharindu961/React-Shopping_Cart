@@ -25,6 +25,10 @@ function App() {
       setCart({...cart, product});
     };
 
+    const renderProducts = () => {
+      
+    }
+
   return (
     <div className="App">
       <header>
