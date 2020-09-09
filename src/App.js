@@ -4,7 +4,7 @@ import './App.css';
 function App() {
 
     const [cart, setCart] = useState([]);
-    const [page,setPage] = useState('products');
+    const [page, setPage] = useState('products');
 
     const [products] = useState([
       {
@@ -30,6 +30,8 @@ function App() {
       <header>
         <button>Go to Cart ({cart.length})</button>
       </header>
+      {page === 'products' && (
+        <>
       <h1>Products</h1>
       <div className="products">
       {
@@ -43,6 +45,8 @@ function App() {
         )) 
       }
       </div>
+      </>
+      )}
     </div>
   );
 }
