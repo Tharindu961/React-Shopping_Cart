@@ -4,6 +4,8 @@ import './App.css';
 function App() {
 
     const [cart, setCart] = useState([]);
+    const [page,setPage] = useState('products');
+
     const [products] = useState([
       {
         name: 'AA Battery',
