@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import './App.css';
 
+const PAGE_PRODUCTS = 'products';
+const PAGE_CART = 'cart';
+
 function App() {
 
     const [cart, setCart] = useState([]);
@@ -36,6 +39,24 @@ function App() {
         <h4>{product.cost}</h4>
         <img src={product.image} alt={product.name} />
         <button onClick={() => addToCart(product)}>Add to Cart</button>
+      </div> 
+        )) 
+      }
+      </div>
+      </>
+    );
+
+    const renderCart = () => (
+      <>
+      <h1>Cart</h1>
+      <div className="products">
+      {
+        products.map((product, idx) => (
+          <div className="product" key={idx}>
+        <h3>{product.name}</h3>
+        <h4>{product.cost}</h4> 
+        <img src={product.image} alt={product.name} />
+    <button onClick={() => addToCart(product)}>Add to Cart</button>
       </div> 
         )) 
       }
