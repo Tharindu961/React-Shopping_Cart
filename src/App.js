@@ -69,8 +69,8 @@ function App() {
       <header>
         <button>Go to Cart ({cart.length})</button>
       </header>
-      {page === 'products' && renderProducts()}
-      {page === 'cart' && renderCart()}
+      {page === PAGE_PRODUCTS && renderProducts()}
+      {page === PAGE_CART && renderCart()}
        
     </div>
   );
